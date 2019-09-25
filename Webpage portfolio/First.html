@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KosmosKey</title>
+    <link rel="icon" href="house.png" type="image/png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div class="container">
+             <header>
+                <img src="logo.png" alt="KosmosKey logo" class="logo" id="logo">
+             <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="hamburger-menu-icon-free-9.jpg" class="menu" id="menu">
+                 </a>
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">
+                        <img src="hamburger-menu-icon-free-9 (2).png" alt="exit menu">
+                    </li>
+                    <li><a href="https://twitter.com/KosmosKey">Twitter</a></li>
+                    <li><a href="https://github.com/KosmosKey">GitHub</a></li>
+                    <li><a href="https://www.behance.net/khamidovma3090">Behance</a></li>
+                    <li><a href="Contact Form v1/Contact_Form.html">Cotact Me</a></li>
+                </ul>
+             </nav>
+        </header>
+        <section>
+            <img src="fr.jpg" alt="server graphic" class="server">
+
+            <h1>
+                Front end developer, Web desginer and Graphic designer
+            </h1>
+            <p class="subhead">Self taught Front end developer, Website designer and three years experience with Graphic designs</p>
+
+            <img src="Scroll-Icon.jpg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+              <li>
+                <img src="New Project (8).png" alt="Calender icon" class="Computer-icon">
+                <p> Two moths expeience with web development. I always loved to design websites 
+                    and building it. I have always seen this as my passion writing different codes and
+                    make responsive websites. I am not only a web developer, but also web designer as well.
+                    The reason why i do both is because i have a knowledge with graphic designs from before.
+                </p>
+              </li>
+              <li>
+                <img src="New Project (11).png" alt="Calender icon" class="PS-icon">
+                <p>Three years experience with Photoshop. I have always been working on projects
+                    such as Logos, Banners, Wallpapers, Rebrands, Gaming graphics, Revamps and a lot
+                    more. I have also been using other programms such as Cinema4D to developer
+                    3D graphic designs. But right now i use Photoshop for designing 2D elements and 
+                    making other effects into it.
+                </p>
+                </li>
+                <li>
+                    <img src="New Project (5).png" alt="Calender icon" class="client-icon">
+                    <p>I have always worked with clients. I've benn talking to clients, making them happy and even bringing
+                        a good service. This was the biggest motivation for me since that is the reason why i am very glad for what i do. When i talk to my clients
+                        i am not only looking for the work to be done. Always want to know their interest and solve problems as well.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grey-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="client.jpg" alt="User testimonial picture">
+                        <blockquote>
+                        "Working with KosmosKey has been a most 
+                        pleasant experience! His dedication and 
+                        passion for what he designs is exemplified by his unrivaled
+                         customer support and attentiveness to the specific needs 
+                         of what I asked for. Looking forward in my upcoming projects that
+                         I will contract KosmosKey to design what I’m in need of."
+                        </blockquote>
+                            <figcaption>- Johnny Rivera</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="client2.png" alt="User testimonial picture" class="client2">
+                        <blockquote>
+                            "Me and KosmosKey had a very good time with each other. He has helped me a lot
+                            with what i was in need for. I always like the work and even if i wanted some changes
+                            he always did what i asked for. He is not just a designer he takes care of clients, 
+                            helps people to fix problems and bring excellent products"
+                        </blockquote>
+                                
+                            <figcaption>- Javier "TheCruzMan"</figcaption>
+                    </figure>
+                </li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Would you like to talk to me?</h2>
+        <a href="Contact Form v1/Contact_Form.html" class="cta">Contact Me</a>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="logo2.png" class="logo" alt="logo">
+                </a>
+                <p class="address">Bergen, Sentrum<br>Norway</p>
+                <ul class="footer-links">
+                    <li><a href="#">@KosmosKey</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener("click", function(e) {
+            nav.classList.toggle("hide-mobile");
+            e.preventDefault();
+        });
+
+        exit.addEventListener("click", function(e) {
+            nav.classList.add("hide-mobile");
+            e.preventDefault();
+        });
+    </script>
+
+</body>
+</html>
